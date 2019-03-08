@@ -1,0 +1,72 @@
+.imagen {
+    width: 50%;
+    margin-bottom: 5px;
+    flex: -1 0 0px;
+}
+
+#bloque-login {
+    margin-right: -30px;
+}
+
+.todo {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+
+.contenedor-correo {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.contenedor-clave {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.boton_intro {
+    background-color: seagreen;
+    border: darkgreen 2px solid;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.boton_volver {
+    background-color: #4CAF50;
+    border: green 2px solid;
+    border-radius: 12px;
+    color: white;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.boton_intro:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border: #006400 2px solid;
+    color: #2e8b57;
+}
+
+.boton_volver:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border: #008000 2px solid;
+    color: #4CAF50;
+}
